@@ -53,8 +53,12 @@ button:hover {
   padding: 20px;
 }
 
-.image-gallery img {
+.image-gallery .image-wrapper {
+  flex: 1 1 300px;
   max-width: 300px;
+}
+
+.image-gallery img {
   width: 100%;
   height: auto;
   border-radius: 8px;
