@@ -14,6 +14,21 @@ h2 {
   color: #333;
 }
 
+button {
+  padding: 10px 20px;
+  font-size: 1.0em;
+  background-color: #00aa00;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #008800;
+}
+
 .centered-text {
   text-align: center;
 }
