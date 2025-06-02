@@ -29,6 +29,14 @@ button:hover {
   background-color: #008800;
 }
 
+.counter-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 .centered-text {
   text-align: center;
 }
